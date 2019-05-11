@@ -70,7 +70,7 @@ isalpha = (str) ->
 isalphaOrUnderscore = (str) ->
   if !str? then return false
   #Check for non-alphabetic characters and space
-return (str.search(/[^A-Za-z\u00C0-\u017E\u0370-\u03FF_]/) == -1)
+  return (str.search(/[^A-Za-z\u00C0-\u017E\u0370-\u03FF_]/) == -1)
 
 isunderscore = (str) ->
   if !str? then return false

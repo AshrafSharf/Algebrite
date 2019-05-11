@@ -23398,9 +23398,8 @@
     if (str == null) {
       return false;
     }
+    return str.search(/[^A-Za-z\u00C0-\u017E\u0370-\u03FF_]/) === -1;
   };
-
-  return str.search(/[^A-Za-z\u00C0-\u017E\u0370-\u03FF_]/) === -1;
 
   isunderscore = function(str) {
     if (str == null) {
