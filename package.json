@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/davidedc/Algebrite#readme",
   "dependencies": {
-    "big-integer": "^1.6.32"
+    "big-integer": "^1.6.32",
+    "browserify": "^16.2.3"
   }
 }
